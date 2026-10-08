@@ -1,0 +1,12 @@
+{
+  "name": "ai-dev-org-smoke",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/unit.test.mjs",
+    "start": "node server.mjs",
+    "test:browser": "playwright test"
+  },
+  "devDependencies": { "@playwright/test": "1.64.0" }
+}
