@@ -1,3 +1,4 @@
 export function greet(name) {
-  return `Hello, ${name.trim()}`;
+  const visitor = name.trim() || 'guest';
+  return `Hello, ${visitor}`;
 }
